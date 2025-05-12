@@ -1,0 +1,6 @@
+1001|Inception|film|2010|4|Un chef-d'œuvre de science-fiction.
+1002|Breaking Bad|série|2008|4|Une série intense et brillamment écrite.
+1003|Avatar|film|2009|3|Magnifique visuellement mais scénario classique.
+1004|Stranger Things|série|2016|4|Un bel hommage aux années 80.
+1005|Titanic|film|1997|3|Une romance tragique inoubliable.
+1006|The Office|série|2005|2|Humour particulier, mais culte.

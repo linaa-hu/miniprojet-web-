@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Allociné</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="w3-container w3-teal">
+        <h1>Mini Allociné</h1>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-col l2 w3-light-grey w3-padding">
+            <h3>Menu</h3>
+            <a href="index.php?page=presentation" class="w3-button w3-block">Présentation</a>
+            <a href="index.php?page=critiques" class="w3-button w3-block">Critiques</a>
+            <a href="index.php?page=editcritique" class="w3-button w3-block">Ajouter une critique</a>
+        </div>
+
+        <div class="w3-col l10 w3-padding">
+            <?php
+                $page = $_GET['page'] ?? 'presentation';
+                if ($page == 'critiques') include 'critiques.php';
+                elseif ($page == 'editcritique') include 'editcritique.php';
+                else include 'init.php';
+            ?>
+        </div>
+    </div>
+
+    <footer class="w3-container w3-teal w3-margin-top">
+        <p>© 2025 - Mini Allociné - Réseaux sociaux | Auteur : Ton Nom</p>
+    </footer>
+</body>
+</html>
